@@ -30,7 +30,7 @@ var result = son + 1;
 console.log("Natija:", result)
 
 
-2-misol
+//2//
 var son = Number(prompt(" istagan sonni kiriting"));
 
 if(son > 0){
@@ -43,7 +43,7 @@ if(son < 0){
     console.log("Soningiz 0")
 }
 
-3-misol
+//3//
 var son = Number(prompt(" istagan sonni kiriting"));
 
 switch(true){
@@ -58,13 +58,13 @@ switch(true){
     break;
 }
 
-4-misol
+//4//
 var tYil = Number(prompt("Tug'ilgan yilingizni kiriting"))
 var hozirgiYil = 2025
 var natija = hozirgiYil - tYil
 console.log("Hozirgi yoshingiz:" , natija)
 
-5-misol
+//5//
 var son1 = Number(prompt("Istagan 1-sonni kiriting"));
 var son2 = Number(prompt("Istagan 2-sonni kiriting"));
 
@@ -82,7 +82,7 @@ switch(true){
 
 
 
-6-misol
+//6//
 var son1 = Number(prompt("1-sonni kiriting"))
 var son2 = Number(prompt("2-sonni kiriting"))
 var son3 = Number(prompt("3-sonni kiriting"))
@@ -102,7 +102,7 @@ switch(true){
 console.log("Eng katta son:" , engkattason)
 
 
-7-misol
+//7//
 var son1 = Number(prompt("1-sonni kiriting"))
 var son2 = Number(prompt("2-sonni kiriting"))
 var son3 = Number(prompt("3-sonni kiriting"))
@@ -123,14 +123,14 @@ switch(true){
 console.log("Eng kichik son:" , engkichikson)
 
 
-// 100 ballga
-1-misol
+// 100 ball uchun//
+//1//
 var son = Number(prompt("Istagan sonni kiriting"))
 for(var i = 1; i <= son; i++ ){
   console.log(i)
 }
 
-2-misol
+//2//
 var son = Number(prompt("Istagan soningizni kiriting"))
 for( var i = 1; i <= son; i++){
   if( i % 3 === 0 && i % 5 === 0){
@@ -139,26 +139,13 @@ for( var i = 1; i <= son; i++){
 }
 
 
-3-misol
+//3//
 var son = Number(prompt("Istagan sonni kiriting"))
 for(var i = son; i >= 1; i-- ){
   console.log(i)
 }
 
-4-misol
-var a = Number(prompt("a sonini kiriting"))
-var b = Number(prompt("b sonini kiriting"))
-var sonlarYigindisi = 0
-var sonlarQiymati = 0
-for( var i = a; i <= b; i++){
-      sonlarYigindisi += i
-      sonlarQiymati ++
-      
-}
-console.log("Sonlar yig'indisi", sonlarYigindisi  )
-console.log("Sonlar qiymati", sonlarQiymati )
-
-5-misol
+//4//
 var a = Number(prompt("a sonini kiriting"))
 var b = Number(prompt("b sonini kiriting"))
 
@@ -167,7 +154,7 @@ for( var i = a; i <= b; i++){
     console.log(i)
 }
 
-6-misol
+//6//
 var a = Number(prompt("a sonini kiriting"))
 var b = Number(prompt(" b sonini kiriting"))
 var bYigindisi = 0
@@ -178,16 +165,3 @@ for( var i = a; i <= b ; i++){
   }
 }
 console.log("b lar yig'indisi", bYigindisi)
-
-
-7-misol
-var a = Number(prompt("5 soni"))
-var b = Number(prompt("49 soni"))
-var toqlarYigindisi = 0
-for(var i = a; i <= b; i++ ){
-  if(i % 2 !== 0){
-    toqlarYigindisi += i
-    console.log(i)
-  }
-}
-console.log("Toq sonlar yig'indisi", toqlarYigindisi)
